@@ -46,6 +46,8 @@ main p {
     border-radius: 4px;
     font-family: 'arial';
     text-align: justify;
+    text-indent: 30px;
+    line-height: 1.4em;
 }
 
 nav {
