@@ -9,7 +9,7 @@ header {
     padding: 15px;
     color: white;
     max-width: 2000px;
-    min-width: 420px;
+    min-width: 410px;
 }
 
 header h2 {
@@ -18,15 +18,17 @@ header h2 {
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: #f0f0f0;
 }
 
 main {
     background-color: white;
     max-width: 800px;
-    min-width: 420px;
+    min-width: 410px;
     margin: auto;
     padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 4px 7px 0px rgba(70, 70, 70, 0.438)
 }
 
 main h1 {
@@ -39,7 +41,7 @@ main h1 {
 }
 
 main p {
-    background-color: #b0e1e2fa;
+    background-color: #b3b0e2fa;
     margin-top: 8px;
     margin-bottom: 15px;
     padding: 5px;
@@ -53,6 +55,8 @@ main p {
 nav {
     background-color: #5854F2;
     padding: 10px;
+    max-width: 2000px;
+    min-width: 420px;
 }
 
 nav a {
@@ -65,4 +69,12 @@ nav a {
 nav a:hover {
     background-color: #999eca;
     border-radius: 4px;
+}
+
+main h1.importante {
+    background-image:linear-gradient(90deg, #6cb8d6, white) ;
+}
+
+main p.importante {
+    background-color: #b1dbe4;
 }
