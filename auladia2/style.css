@@ -32,7 +32,7 @@ header {
     text-align: center;
     color: white;
     max-width: 2560px;
-    min-width: 420px;
+    min-width: 410px;
     font: bold 1.5em 'padrao';
     line-height: 2em;
     letter-spacing: 2px;
@@ -41,6 +41,8 @@ header {
 nav {
     background-color: var(--cor2);
     padding: 10px;
+    max-width: 2600px;
+    min-width: 430px;
 }
 
 nav a {
@@ -76,4 +78,5 @@ main p {
     text-indent: 30px;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 20px;
+    line-height: 1.4em;
 }
