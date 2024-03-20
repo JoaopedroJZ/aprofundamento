@@ -58,6 +58,7 @@ main {
     background-color: white;
     margin: auto;
     padding: 20px;
+    box-shadow: 0px 5px 7px 1px rgba(131, 129, 129, 0.479);
 }
 
 main h1 {
