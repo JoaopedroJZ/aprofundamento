@@ -15,29 +15,32 @@
     src: url('../fonte/BebasNeue-Regular.ttf') format('truetype');
 }
 
-body {
-    background: black url(../wallpaper004.jpg) center center no-repeat fixed;
-    background-size: cover;
+header {
+    margin: auto;
+    background-image: linear-gradient(360deg, var(--cor1), var(--cor2));
+    padding: 20px;
+    color: white;
+    text-align: center;
+    max-width: 2560px;
+    min-width: 370px;
 }
 
 header {
-    max-width: 2560px;
-    min-width: 370px;
-    text-align: center;
-    background-image: linear-gradient(360deg, var(--cor1), var(--cor2));
-    font: bold 1.5em 'padrao';
-    letter-spacing: 2px;
+    font: bold 1.5em 'padrao' ;
+    word-spacing: 2px;
     line-height: 2em;
-    padding: 20px;
-    color: white;
 }
 
 nav {
     background-color: var(--cor1);
-    max-width: 2560px;
-    min-width: 390px;
     padding: 10px;
-    font: normal 18px 'arial';
+    max-width: 2560px;
+    min-width: 390px
+}
+
+body {
+    background: black url(../wallpaper004.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 nav a {
@@ -57,7 +60,7 @@ nav a:hover {
 main {
     background-color: white;
     max-width: 800px;
-    min-width: 377.9px;
+    min-width: 380px;
     padding: 15px;
     margin: auto;
 }
@@ -65,34 +68,37 @@ main {
 article h1 {
     background-image: linear-gradient(90deg, var(--cor1), var(--cor2));
     padding: 5px;
-    color: white;
-    font: normal 24px 'arial';
     border-radius: 5px 5px 0px 0px;
-    margin-top: 20px;
+    font: normal 24px 'arial';
+    color: white;
     padding-left: 15px;
+    margin-top: 20px;
 }
 
-article p {
-    padding: 5px;
-    text-indent: 30px;
-    font: normal 16px 'arial';
-    text-align: justify;
-    line-height: 1.3em;
-    background-color: rgb(149, 173, 196);
-    border-radius: 0px 0px 5px 5px;
-}
-
-article h1.first {
+h1.first {
     margin: 0px;
 }
 
-article a {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
+article p{
+    background-color: rgb(149, 173, 196);
+    text-align: justify;
+    text-indent: 30px;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    line-height: 1.3em;
+    font: normal 16px 'arial';
 }
 
-article a:hover {
-    background-color: rgb(105, 124, 143);
-    padding: 2px;
+a {
+    text-decoration: none;
     color: rgb(0, 0, 0);
+    transition-duration: .3s;
+}
+
+a:hover {
+    transition: all .3s ease-in-out;
+    background-color: #939be4;
+    border-radius: 1px;
+    padding: 2px;
+    font-size: 20px;
 }
