@@ -1,0 +1,141 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --correserva1: #4B75F2;
+    --correserva2: #5852F2;
+    --correserva3: #747dcc;
+    --corbiologia: rgb(60, 126, 44);
+    --corbiologia2: rgb(81, 211, 91);
+    --cortextobiologia: rgba(102, 160, 107, 0.664);
+    --corfisica:  rgb(97, 47, 117);
+    --corfisica2: rgb(153, 84, 185);
+    --cortextofisica: rgba(115, 69, 168, 0.514);
+    --corquimica: rgba(204, 178, 32, 0.842);
+    --corquimica2:  rgb(228, 214, 18);
+    --cortextoquimica: rgba(178, 216, 41, 0.596);
+    --fonteheader: bold 3em 'padrao';
+    --fonteheader2: bold 1.5em 'padrao';
+    --corheader1: rgb(115, 69, 168);
+    --corheader2: rgba(87, 136, 103, 0.842);
+    --corheader3: rgba(178, 216, 41, 0.596);
+    --fontetexto: normal 17px 'times new roman';
+    
+}
+
+@font-face {
+    font-family: 'padrao';
+    src: url('../fonte/BebasNeue-Regular.ttf') format('truetype');
+}
+
+body {
+    background: black url(../wallpaper004.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: 2140px;
+    min-width: 400px;
+}
+
+header h1 {
+    font: var(--fonteheader);
+    letter-spacing: 2px;
+}
+
+header h2 {
+    font: bold 1.5em 'padrao';
+    letter-spacing: 2px;
+}
+
+section.cabeca {
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(324deg, rgb(115, 69, 168), rgba(87, 136, 103, 0.842), rgba(178, 216, 41, 0.596) );
+}
+
+nav {
+    padding: 8px;
+    max-width: 2140px;
+    min-width: 400px;
+}
+
+nav a {
+    margin-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+a:hover {
+    background-color: rgba(102, 102, 102, 0.301);
+    padding: 5px;
+    border-radius: 2px;
+    transition: all ease-in-out .2s;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    min-width: 370px;
+    padding: 15px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 5px 5px rgba(26, 25, 25, 0.164);
+    margin: auto;
+}
+
+section.texto h1 {
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    font: normal 1.7em 'arial';
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+section.texto p {
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.3em;
+    text-indent: 30px;
+    font: normal 17px 'times new roman';
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 12px;
+}
+
+section#um {
+    margin-top: 15px;
+}
+
+section#dois h1 {
+    background-image: linear-gradient(90deg, rgba(204, 178, 32, 0.842), rgb(228, 214, 18));
+}
+
+section#dois p {
+    background-color: rgba(178, 216, 41, 0.425);
+}
+
+section#um h1 {
+    background-image: linear-gradient(90deg, rgb(97, 47, 117), rgb(153, 84, 185));
+}
+
+section#um p {
+    background-color: rgba(115, 69, 168, 0.514);
+}
+
+section#tres h1 {
+    background-image: linear-gradient(90deg, var(--corbiologia), var(--corbiologia2));
+}
+
+section#tres p {
+    background-color: var(--cortextobiologia);
+}
